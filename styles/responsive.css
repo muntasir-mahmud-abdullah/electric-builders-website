@@ -1,0 +1,81 @@
+@media screen and (max-width:576px) {
+    nav ul{
+        display:none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    .offer-section {
+        flex-direction: column;
+        /* display: block; */
+        
+    }
+    section {
+        margin: 0px auto;
+    }
+    .card-container {
+        display: block;
+    }
+    .card-content{
+    margin: 10px;
+}
+.hide-container {
+    display: block;
+    overflow: hidden;
+
+
+}
+.qna-container { 
+flex-direction: column;
+}
+.qna-image {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.qna-form-container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+.form-child {
+    width: 100%;
+    margin:0;
+}
+.form-container input,select,textarea{
+    padding: 10px;
+
+}
+footer {
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-content {
+    margin-top: 40px;
+}
+.footer-input {
+    flex-direction: column;
+    gap: 10px;
+width: 90%;
+margin: auto;}
+.footer-input input[type=email] {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: transparent;
+}
+.footer-input input[type=submit] {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius:10px;
+    font-weight: 500;
+    outline: none;
+    background-color: hsla(43, 95%, 50%, 0.807);
+    border: transparent;
+    padding:10px;
+    width: 50%;
+    margin: auto;
+}
+}
